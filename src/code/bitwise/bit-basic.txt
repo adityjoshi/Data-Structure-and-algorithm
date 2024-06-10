@@ -1,0 +1,8 @@
+Bit wise operation basic
+
+1 Left shift Operator ->
+  a<<b => a * 2^b
+  eg (1001)2 => 10010
+
+2 Right shift Operator ->
+  a>>b => a/2^b
