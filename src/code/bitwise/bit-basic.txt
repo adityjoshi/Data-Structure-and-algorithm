@@ -6,3 +6,10 @@ Bit wise operation basic
 
 2 Right shift Operator ->
   a>>b => a/2^b
+
+3 The LSB tells us weather the number is positive or negative
+  100001/0 if the lsb is 0 its +ve else -ve
+
+4 -ve number representation
+   first find the compliment of the number than add 1 to it
+
