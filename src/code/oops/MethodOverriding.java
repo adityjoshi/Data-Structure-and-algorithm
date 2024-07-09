@@ -2,10 +2,12 @@ package code.oops;
 
 public class MethodOverriding {
     public static void main(String[] args) {
-        Bike bike = new Bike();
-        bike.engine();
+      //  Bike bike = new Bike();
+       // bike.engine();
         Car car = new Car();
         car.engine();
+        Vehicle hon = new Bike();
+        hon.engine();
     }
 }
 
