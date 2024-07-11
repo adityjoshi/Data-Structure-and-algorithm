@@ -11,6 +11,7 @@ public class SingleInheritance {
         obj2.c=30;
         obj2.display();
         obj2.show();
+
     }
 }
 
