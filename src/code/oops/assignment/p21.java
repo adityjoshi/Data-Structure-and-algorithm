@@ -43,3 +43,17 @@ class BankAccount {
     }
 
 }
+/*
+
+Encapsulation is one of the fundamental principles of object-oriented programming (OOP).
+It involves wrapping the data (attributes) and methods (functions) into a single unit called a class.
+Encapsulation helps to protect the data from unauthorized access and modification.
+
+In the BankAccount class, encapsulation is implemented by:
+
+Private Attributes: The attributes accountNumber, accountHolderName, and balance are declared as private.
+This means they cannot be directly accessed or modified from outside the class.
+
+Public Methods: Public methods such as deposit, withdraw, and displayAccountDetails provide controlled access to the private attributes.
+These methods include logic to ensure that the operations are valid (e.g., ensuring the deposit amount is positive and the withdrawal amount does not exceed the balance).
+ */
