@@ -19,5 +19,12 @@ public class Conversions {
         String rep = "Hello, dev";
         String ans =  rep.replace("dev","golang");
         System.out.println(ans);
+
+        String as = x.concat("")+ " and " + y.concat("") + " are fruits";
+        System.out.println(as);
+
+        String greet = "hello,dev";
+        System.out.println(greet.substring(3,7));
+        System.out.println(Arrays.toString(greet.split("")));
     }
 }
