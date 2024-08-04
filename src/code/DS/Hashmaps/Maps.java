@@ -14,5 +14,7 @@ public class Maps {
         System.out.println(emp.containsKey(2));
         System.out.println(emp.putIfAbsent(4,"java"));
         System.out.println(emp);
+
+
     }
 }
