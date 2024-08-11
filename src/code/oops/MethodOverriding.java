@@ -17,12 +17,12 @@ class Vehicle {
 class Bike extends Vehicle {
     @Override
     void engine() {
-        System.out.println("this is bike");
+        System.out.println("this is a bike");
 
     }
 }
 class Car extends Vehicle {
     void engine() {
-        System.out.println("this is car");
+        System.out.println("this is a car");
     }
 }
