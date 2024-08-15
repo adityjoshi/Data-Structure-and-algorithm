@@ -3,6 +3,8 @@ package code.oops;
 public class Errors {
     public static void main(String[] args) {
         String[] array = {"0", "bcc", "15"};
+        String x = "a";
+        String y = "a";
 
         for (int i = 0; i < array.length; i++) {
             try {
@@ -19,4 +21,5 @@ public class Errors {
             }
         }
     }
+
 }
