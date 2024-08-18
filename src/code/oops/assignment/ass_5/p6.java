@@ -1,6 +1,5 @@
-package code.oops.assignment.ass_3;
+package code.oops.assignment.ass_5;
 
-import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
