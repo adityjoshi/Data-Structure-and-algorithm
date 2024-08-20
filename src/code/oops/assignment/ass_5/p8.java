@@ -1,6 +1,7 @@
 package code.oops.assignment.ass_5;
 
 import java.io.*;
+import java.nio.Buffer;
 
 public class p8 {
     public static void main(String[] args) {
@@ -9,20 +10,50 @@ public class p8 {
 
         try (BufferedReader reader = new BufferedReader(new FileReader(inp))) {
             String line ;
-            while((line = reader.readLine())!=null) {
-                System.out.println("read line => " + line);
+            while ((line = reader.readLine())!=null) {
+                System.out.println(line);
             }
         } catch (IOException e) {
-            System.out.println(e.getMessage());
+            e.getMessage();
         }
-        try(BufferedWriter writer = new BufferedWriter(new FileWriter(out))) {
-            writer.write("hello word");
+
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(out))) {
+            writer.write("Pew Pew 🔫");
             writer.newLine();
-            writer.write("billo tu agg hai");
-            writer.newLine();
-            System.out.println("data has been written" + out);
         } catch (IOException e) {
-            System.out.println(e.getMessage());
+            e.getMessage();
         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//        try (BufferedReader reader = new BufferedReader(new FileReader(inp))) {
+//            String line ;
+//            while((line = reader.readLine())!=null) {
+//                System.out.println("read line => " + line);
+//            }
+//        } catch (IOException e) {
+//            System.out.println(e.getMessage());
+//        }
+//        try(BufferedWriter writer = new BufferedWriter(new FileWriter(out))) {
+//            writer.write("hello word");
+//            writer.newLine();
+//            writer.write("billo tu agg hai");
+//            writer.newLine();
+//            System.out.println("data has been written" + out);
+//        } catch (IOException e) {
+//            System.out.println(e.getMessage());
+//        }
     }
 }
